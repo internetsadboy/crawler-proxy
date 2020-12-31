@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/crawl', (req, res) => {
   res.statusCode = 200;
-  res.json({ test: 1999 });
+  res.json({});
 });
 
 router.get('*', (req, res) => {
